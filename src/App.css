@@ -1,0 +1,55 @@
+/* Estilos para el componente App */
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+.emoji-pasto {
+  display: none;
+}
+
+.svg-pasto {
+  display: none;
+}
+
+.container {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(44, 62, 80, 0.08);
+  border: 1.5px solid #eaeaea;
+}
+
+.titulo {
+  text-align: center;
+  color: #232946;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(44, 62, 80, 0.08);
+  background: none;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+  background-clip: initial;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+  }
+} 
